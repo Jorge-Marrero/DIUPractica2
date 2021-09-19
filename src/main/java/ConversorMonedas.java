@@ -126,6 +126,7 @@ public class ConversorMonedas extends javax.swing.JFrame {
             }
         }catch(NumberFormatException e){
             System.out.println("Uno de los campos introducidos no corresponde con un número decimal.");
+            textResultado.setText("Input erróneo");
         }
         
     }//GEN-LAST:event_buttonConvertirActionPerformed
